@@ -1,14 +1,14 @@
 module.exports = {
-    "token": "",
+    "token": "process.env.TOKEN",
     "prefix": "",
     "MEMER_API_TOKEN": "", // Get The Memer API Token from https://discord.com/invite/emD44ZJaSA
     "TENOR_API_KEY": "", // Get The Tenor API Key from https://www.tenor.co/api/v1/key/
     "mongooseConnectionString": "", 
-    "id": "",  // https://discordapp.com/developers/applications/ID/information,
-    "clientSecret": "",  // https://discordapp.com/developers/applications/ID/information,
+    "id": "process.env.ID",  // https://discordapp.com/developers/applications/ID/information,
+    "clientSecret": "process.env.SECRET",  // https://discordapp.com/developers/applications/ID/information,
     "domain": "http://localhost:3000",
     "port": 3000,
-    "usingCustomDomain": false
+    "usingCustomDomain": true
 }
 
 /**
